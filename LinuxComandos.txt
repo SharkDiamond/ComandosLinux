@@ -1,0 +1,100 @@
+cat /pro/cpu.info / ver informacion de la cpu del servidor
+
+loadavg -- debe ser menor a la cantidad e procesadores / si es mayor el servidor esta sobrecargado
+
+	La mejor manera cat/proc/loadavg
+	
+	loadavg se ve con top en la parte superior.
+
+.bashrc crear comandos propios
+
+ls -alh / mostrar  el contenido de un archivo
+
+ . archivos ocultos
+
+ll archivo / mostrar el contenido de una carpeta
+
+rsync -av carpetaAcopiar carpetaApegar/
+
+> archivo / crear un archivo o carpeta.
+
+du -sh  carpeta / ver el espacio que ocupa una carpeta.
+
+stat archivo / ver informacion mas especifica sobre un archivo.
+
+zipinfo archivo / ver el contenido de un archivo comprimido sin descomprimirlo.
+
+tree / mostrar los directorios en arbol.
+
+find directorio  -iname "nombre archivo"
+
+
+	-delete / si se encuentra el archivo se borra.
+
+cal / Calendario
+
+date / fecha actual
+
+bc / calculadora simple
+
+ps fax / ver procesos que estan corriendo en el servidor
+
+kill idProceso / Matar un proceso
+
+curl paginaname / ver el contenido de una pagina web solo el texto
+
+cat archivo / mostrar el contenido de un archivo si editarlo.
+
+grep palabra archivo / marcar el contenido en el archivo que tenga dicha palabra.
+
+ -l palabra archivo / devuelve el nombre del archivo si tiene esa palabra.
+
+df -h / ver el espacio disponible en tu servidor.
+
+top / ver procesos.
+
+history - ver el historial de comandos
+
+ctrl + l / limpia la terminal
+ 
+-------Red--------------------------
+
+netstat -nr / ver tabla de enrutamiento.
+
+netstat -i / ver informacion de las interfaces del servidor.
+
+netstat -natup / procesos que se estan escuchando con sus respectivos puertos / preferible 
+para  ver puertos abiertos nmap
+
+nginx / servidor web
+
+tcpdump -i interfaz -p tcp port puerto / escuchar el trafico.
+
+------------------------------------------------------------------
+
+locate archivo -- buscar un archivo mas rapido
+
+updatedb --- actualizar la base de datos de locate
+
+
+screen -- crear una terminal nueva dentro de la actual
+
+htop ver procesos de manera mas grafica
+
+less archivo / usar para leer archivos que son muy grandes 1gb etx.
+
+tail archivo / ver las ultimas 10 lineas de un archivo
+
+	-f quedar es esperando si el archivo se actualiza.
+
+head archivo / muestra las primeras 10 lineas del archivo
+
+free -m / muestra el uso de memoria del servidor
+
+	-g lo muestra en gb
+
+
+
+
+ 
+
